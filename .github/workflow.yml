@@ -7,6 +7,6 @@ on:
     branch: ["main"]
 
 jobs:
-  build: #names the job as "build"
+  build: # names the job as "build"
     runs-on: ubuntu-latest
     container: python:3.9-slim
